@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry add pandas==2-0-1"
+version = "poetry add jupyterlab==3.6.3 scikit-learn==1.2.2"
+description = ""
+authors = ["frodorocky <frodorocky@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry add pandas==2"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
